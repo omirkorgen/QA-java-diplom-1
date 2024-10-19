@@ -7,13 +7,13 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
 @RunWith(Parameterized.class)
-public class BunTest {
+public class BunParamTest {
     private Bun bun;
 
     private final float price;
     private final String name;
 
-    public BunTest(String name, float price) {
+    public BunParamTest(String name, float price) {
         this.name = name;
         this.price = price;
     }
